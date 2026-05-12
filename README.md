@@ -1,2 +1,3 @@
-# IG20261ERPARCIAL
-Primer parcial de la materia Informática General de la carrera Artes Multimediales.
+Sofía Antonella Suárez
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
