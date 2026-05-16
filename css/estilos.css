@@ -24,9 +24,8 @@ body {
 }
 
 header {
-    width: 100%;
     padding: 2rem;
-    margin: 0;
+    margin: -2rem -4rem 0 -4rem;
     background-color:#277A8C;
     display: flex;
     flex-direction: column;
@@ -55,6 +54,7 @@ header p {
 }
 
 nav ul {
+    margin: 0 -4rem;
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -62,9 +62,16 @@ nav ul {
 }
 
 nav li {
+    font-family: Abel;
+    font-weight: bold;
+    font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-color:aqua;;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav a {
@@ -81,8 +88,8 @@ nav a:link {
 }
 
 nav a:visited {
-    color:#277A8C;
-    background-color: #44AFF2;
+    color:#44AFF2;
+    background-color: #073040;
 }
 
 nav a:hover {
@@ -163,6 +170,8 @@ img {
 
 .imagen {
     max-width: 100%;
+    width: 20rem;
+    flex-shrink: 0;
 }
 
 .pie {
@@ -173,7 +182,7 @@ img {
 }
 
 footer {
-    margin-top: 2rem;
+    margin: 2rem -2rem -2rem -2rem;
     display: flex;
     justify-content: center;
     background-color: #277A8C;
