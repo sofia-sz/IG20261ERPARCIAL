@@ -8,6 +8,7 @@ body {
     margin: 0;
     background-image: url("../img/fondo.png");
     background-repeat: repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
 
@@ -18,20 +19,22 @@ body {
     padding: 2rem;
     border-right: 2rem solid;
     border-left: 2rem solid;
-    background-color: azure;
-    border-color: midnightblue;
+    background-color: #D5EDF2;
+    border-color: #277A8C;
 }
 
 header {
     width: 100%;
     padding: 2rem;
-    background-color:midnightblue;
+    margin: 0;
+    background-color:#277A8C;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h1 {
+    color: #073040;
     padding: 0;
     border: 0;
     margin: 0;
@@ -39,10 +42,12 @@ h1 {
 }
 
 h2 {
+    color: #073040;
     font-size: 2rem;
 }
 
 header p {
+    color: #D5EDF2;
     padding: 0;
     border: 0;
     margin: 0;
@@ -53,14 +58,13 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    background-color:rgb(85, 135, 226);
+    background-color:#073040;
 }
 
 nav li {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-color:aqua;
-    background-color: brown;
+    border-color:aqua;;
 }
 
 nav a {
@@ -68,52 +72,53 @@ nav a {
     padding-bottom: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    
     margin: 0;
 }
 
 nav a:link {
-    color:black;
-    background-color: rgb(85, 135, 226);
+    color:#D5EDF2;
+    background-color: #073040;
 }
 
 nav a:visited {
-    color:black;
-    background-color: rgb(71, 118, 204);
+    color:#277A8C;
+    background-color: #44AFF2;
 }
 
 nav a:hover {
-    color:white;
-    background-color: rgb(71, 118, 204);
+    color:#073040;
+    background-color: #277A8C;
 }
 
 nav a:active {
     color:rgb(68, 68, 68);
-    background-color: rgb(39, 76, 145);
+    background-color: #D5EDF2;
 }
 
 footer a:link {
-    color:rgb(111, 104, 131);
+    color:#D5EDF2;
 }
 
 footer a:visited {
-    color:black;
+    color:#44AFF2;
 }
 
 footer a:hover {
-    color:white;
+    color:#1BA0F2;
 }
 
 footer a:active {
-    color:rgb(68, 68, 68);
+    color: #073040;
 }
 
 blockquote {
+    color: #277A8C;
     text-align: right;
     font-size: 1.5rem;
 }
 
 h3 {
+    color: #073040;
     font-size: 1.3rem;
 }
 
@@ -164,12 +169,12 @@ img {
     margin-top:0;
     text-align: center;
     color: cadetblue;
-    background-color: rgb(39, 48, 180);
+    background-color: #073040;
 }
 
 footer {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    background-color: midnightblue;
+    background-color: #277A8C;
 }
